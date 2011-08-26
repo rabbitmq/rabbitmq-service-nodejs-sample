@@ -1,0 +1,13 @@
+This is a simple Node.JS application demonstrating the use of the
+RabbitMQ service on Cloud Foundry and Heroku.
+
+To run locally, make sure RabbitMQ is running, then:
+
+    $ npm install
+    $ node app.js
+
+or, in the Heroku way:
+
+    $ gem install foreman
+    $ npm install
+    $ foreman start
