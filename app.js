@@ -1,5 +1,3 @@
-require.paths.unshift('./node_modules');
-
 var http = require('http');
 var amqp = require('amqp');
 var URL = require('url');
